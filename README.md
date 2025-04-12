@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+1. Jak uruchomić projekt lokalnie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+a) Przejdź do głównego katalogu projektu w terminalu
 
-## Available Scripts
+b) Zainstaluj zależności (tylko przy pierwszym uruchomieniu):
 
-In the project directory, you can run:
+npm install
 
-### `npm start`
+c) Uruchom aplikację:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npm start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+d) Otwórz przeglądarkę i przejdź do adresu:
 
-### `npm test`
+http://localhost:3000
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Opis wyglądu projektu:
 
-### `npm run build`
+src/components/CategorySection/CategorySection.jsx
+Odpowiada za wyświetlanie całej sekcji kategorii kursów na stronie głównej. Grupuje kursy według typu (np. programowanie, cloud) i renderuje je jako osobne sekcje z nagłówkiem.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+src/components/CourseCard/CourseCard.jsx
+Komponent odpowiedzialny za wygląd pojedynczej "karty" kursu – zawiera tytuł, kategorię, długość trwania i obrazek. Używany w widoku głównym do wyświetlania kursów.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+src/components/CoursePage/CourseHome.jsx
+Widok powitalny kursu – zawiera wprowadzenie oraz cele kursu.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+src/components/CoursePage/CourseModules.jsx
+Wyświetla wszystkie moduły w ramach danego kursu – pokazuje tytuły i opisy modułów.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+src/components/CoursePage/CoursePage.jsx
+Główny kontener strony kursu – zawiera komponenty takie jak sidebar, home i moduły w zależności od wybranej zakładki.
 
-## Learn More
+src/components/CoursePage/CourseSidebar.jsx
+Sidebar nawigacyjny widoczny po lewej stronie kursu. Zawiera linki do sekcji: Strona główna, Moduły, Quiz, oraz powrót do strony głównej.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+src/components/CoursePage/LessonPage.jsx
+Wyświetla konkretną lekcję z modułu. Pokazuje tytuł, treść lekcji (HTML), obrazki, filmy, itd.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+src/components/CoursePage/ModulePage.jsx
+Wyświetla wszystkie lekcje z danego modułu – pokazuje, które są zakończone, a które nie.
+
+src/components/CoursePage/QuizPage.jsx
+Zarządza stanem quizu – sprawdza, czy można go rozpocząć (czy użytkownik ukończył lekcje) lub pokazuje podsumowanie, jeśli quiz został już zakończony.
+
+src/components/CoursePage/QuizQuestions.jsx
+Widok z pytaniami quizu. Użytkownik może zaznaczać odpowiedzi. Po zakończeniu quizu dane są zapisywane do localStorage.
+
+src/components/CoursePage/Filters.jsx
+Zawiera filtry widoczne na stronie głównej (czas trwania, kategoria). Odpowiada za filtrowanie kursów na żywo po kliknięciu.
+
+
+
+src/data/courses.json
+Główna baza danych kursów. Tutaj dodajesz nowy kurs w formacie JSON. Każdy kurs zawiera takie dane jak:
+
+id – unikalny numer kursu
+
+title – tytuł kursu
+
+image – ścieżka do obrazka kursu (/images/nazwa.png)
+
+duration – czas trwania
+
+category – nazwa kategorii (np. Programowanie, Cloud Computing)
+
+categoryGroup – klucz wewnętrzny używany do filtrowania (np. programowanie, cloud)
+
+modules, quiz, welcomeMessage, objectives, itd.
+
+
+
+public/images/
+Katalog z obrazkami używanymi w kursach (np. do kart kursów). Wszystkie ścieżki w pliku courses.json odwołują się do tego folderu przez /images/nazwa.png.
+
+
+3. Jak dodać nowy kurs
+
+a) Otwórz plik: src/data/courses.json
+
+b) Dodaj nowy obiekt JSON zgodnie z poniższym schematem:
+
+{
+  "id": 11,
+  "title": "Tytuł kursu",
+  "image": "/images/plik.png",
+  "duration": "1-2 godziny",
+  "category": "Programowanie",
+  "categoryGroup": "programowanie"
+}

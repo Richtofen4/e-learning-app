@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "title": "Tworzenie stron internetowych od podstaw",
+    "image": "/images/html.png",
+    "duration": "3-5 godzin",
+    "category": "Programowanie",
+    "categoryGroup": "programowanie",
+    "welcomeMessage": "Witaj w kursie! Dzięki temu kursowi nauczysz się budować nowoczesne strony internetowe od podstaw. Zaczniemy od struktury HTML, przejdziemy przez stylowanie CSS i zakończymy na interaktywności z JavaScriptem.",
+    "objectives": [
+      "Zbudować kompletną stronę internetową przy użyciu HTML, CSS i JS",
+      "Zrozumieć strukturę dokumentu HTML",
+      "Zastosować style CSS do poprawy wyglądu strony",
+      "Tworzyć interakcje z użytkownikiem za pomocą JavaScript"
+    ],
+    "modules": [
+      {
+        "id": 1,
+        "title": "Wprowadzenie do HTML i struktury strony",
+        "description": "Poznasz podstawowe znaczniki HTML i jak budować strukturę strony.",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Podstawy znaczników HTML",
+            "content": "<p>HTML to język znaczników, który pozwala tworzyć strukturę strony internetowej. W tej lekcji poznasz podstawowe elementy HTML.</p><p>Znaczniki takie jak <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code> czy <code>&lt;img&gt;</code> to podstawowe budulce HTML.</p><img src='/images/html.png' alt='HTML illustration' style='max-width: 100%; margin: 1rem 0;' /><p>Więcej informacji znajdziesz na <a href='https://developer.mozilla.org/pl/docs/Web/HTML' target='_blank' rel='noopener noreferrer'>stronie MDN</a>.</p><div style='margin-top: 2rem;'><iframe width='560' height='315' src='https://www.youtube.com/embed/Ukg_U3CnJWI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>"
+          },
+          {
+            "id": 2,
+            "title": "Tworzenie nagłówków i akapitów",
+            "content": "Dowiesz się, jak prawidłowo używać nagłówków (h1-h6) oraz akapitów (<p>) w dokumentach HTML."
+          },
+          {
+            "id": 3,
+            "title": "Linki i obrazy",
+            "content": "Zobaczysz, jak dodawać linki (<a>) i wstawiać obrazy (<img>) do strony internetowej."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "CSS – stylowanie strony",
+        "description": "Nauczysz się jak stylować strony i układać elementy.",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Podstawy CSS i selektory",
+            "content": "W tej lekcji poznasz selektory CSS, sposób dołączania stylów oraz podstawowe właściwości."
+          },
+          {
+            "id": 2,
+            "title": "Kolory, czcionki, odstępy",
+            "content": "Nauczysz się zmieniać kolory tła i tekstu, ustawiać czcionki i marginesy."
+          },
+          {
+            "id": 3,
+            "title": "Flexbox i układy siatki",
+            "content": "Dowiesz się, jak tworzyć elastyczne układy przy użyciu Flexboxa i Grid Layoutu."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "JavaScript – interakcje",
+        "description": "Dodasz interaktywność do strony dzięki JavaScript.",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Zmienne, funkcje i zdarzenia",
+            "content": "Poznasz podstawy JavaScript – zmienne, funkcje, obsługę zdarzeń oraz jak reagować na działania użytkownika."
+          },
+          {
+            "id": 2,
+            "title": "Manipulacja DOM",
+            "content": "Nauczysz się pobierać i modyfikować elementy HTML za pomocą JavaScript (DOM)."
+          },
+          {
+            "id": 3,
+            "title": "Tworzenie prostych akcji",
+            "content": "Zastosujesz JS do dynamicznych interakcji, np. pokazywania/ukrywania elementów, walidacji formularzy."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "question": "Które z poniższych to trzy pierwsze liczby pierwsze?",
+          "answers": [
+            "2, 3, 5",
+            "1, 2, 3",
+            "3, 5, 7",
+            "5, 7, 11"
+          ],
+          "correct": [0],
+          "points": 1
+        },
+        {
+          "id": 2,
+          "question": "Którzy z poniższych byli królami Polski? (zaznacz 2 poprawne odpowiedzi)",
+          "answers": [
+            "Bolesław Chrobry",
+            "Mieszko I",
+            "Kazimierz Wielki",
+            "Zbigniew Boniek"
+          ],
+          "correct": [0, 2],
+          "points": 2
+        },
+        {
+          "id": 3,
+          "question": "Czy kura była przed jajkiem?",
+          "answers": [
+            "Prawda",
+            "Fałsz"
+          ],
+          "correct": [0],
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Podstawy CSS i stylowanie stron",
+    "image": "/images/css.webp",
+    "duration": "Ponad 5 godzin",
+    "category": "Programowanie",
+    "categoryGroup": "programowanie"
+  },
+  {
+    "id": 3,
+    "title": "Wprowadzenie do JavaScript",
+    "image": "/images/js.png",
+    "duration": "3-5 godzin",
+    "category": "Programowanie",
+    "categoryGroup": "programowanie"
+  },
+  {
+    "id": 4,
+    "title": "React – Pierwsze kroki",
+    "image": "/images/react.png",
+    "duration": "2-3 godziny",
+    "category": "Programowanie",
+    "categoryGroup": "programowanie"
+  },
+  {
+    "id": 5,
+    "title": "TypeScript dla początkujących",
+    "image": "/images/unknow.png",
+    "duration": "3-5 godzin",
+    "category": "Programowanie",
+    "categoryGroup": "programowanie"
+  },
+  {
+    "id": 6,
+    "title": "Node.js – Serwery w JavaScript",
+    "image": "/images/unknow.png",
+    "duration": "1-2 godziny",
+    "category": "Programowanie",
+    "categoryGroup": "programowanie"
+  },
+  {
+    "id": 7,
+    "title": "Git i GitHub w praktyce",
+    "image": "/images/unknow.png",
+    "duration": "2-3 godziny",
+    "category": "Programowanie",
+    "categoryGroup": "programowanie"
+  },
+  {
+    "id": 8,
+    "title": "Wprowadzenie do chmury obliczeniowej",
+    "image": "/images/cloud.jpg",
+    "duration": "3-5 godzin",
+    "category": "Cloud Computing",
+    "categoryGroup": "cloud"
+  },
+  {
+    "id": 9,
+    "title": "Microsoft Azure dla początkujących",
+    "image": "/images/unknow.png",
+    "duration": "1-2 godziny",
+    "category": "Cloud Computing",
+    "categoryGroup": "cloud"
+  },
+  {
+    "id": 10,
+    "title": "Podstawy baz danych i SQL",
+    "image": "/images/excel.png",
+    "duration": "Mniej niż 1 godzina",
+    "category": "Bazy danych",
+    "categoryGroup": "bazy danych"
+  }
+]
