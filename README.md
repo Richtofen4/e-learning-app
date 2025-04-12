@@ -14,7 +14,18 @@ d) Otwórz przeglądarkę i przejdź do adresu:
 
 http://localhost:3000
 
-2. Opis wyglądu projektu:
+2. Jak wyczyścić localStorage (do testów)
+
+a) Otwórz stronę aplikacji w przeglądarc (http://localhost:3000)
+
+b) Otwórz narzędzia deweloperskie (F12)
+
+c) Przejdź do zakładki Console
+
+d) Wklej poniższą komendę:
+localStorage.clear();
+
+3. Opis wyglądu projektu:
 
 src/components/CategorySection/CategorySection.jsx
 Odpowiada za wyświetlanie całej sekcji kategorii kursów na stronie głównej. Grupuje kursy według typu (np. programowanie, cloud) i renderuje je jako osobne sekcje z nagłówkiem.
@@ -78,7 +89,7 @@ public/images/
 Katalog z obrazkami używanymi w kursach (np. do kart kursów). Wszystkie ścieżki w pliku courses.json odwołują się do tego folderu przez /images/nazwa.png.
 
 
-3. Jak dodać nowy kurs
+4. Jak dodać nowy kurs
 
 a) Otwórz plik: src/data/courses.json
 
