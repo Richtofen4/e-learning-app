@@ -1,82 +1,140 @@
 [
   {
     "id": 1,
-    "title": "Tworzenie stron internetowych od podstaw",
-    "image": "/images/html.png",
-    "duration": "3-5 godzin",
+    "title": "Kurs C++ – Kompletne wprowadzenie do programowania w C++",
+    "image": "/images/unknow.png",
+    "duration": "1-2 godziny",
     "category": "Programowanie",
     "categoryGroup": "programowanie",
-    "welcomeMessage": "Witaj w kursie! Dzięki temu kursowi nauczysz się budować nowoczesne strony internetowe od podstaw. Zaczniemy od struktury HTML, przejdziemy przez stylowanie CSS i zakończymy na interaktywności z JavaScriptem.",
+    "welcomeMessage": "Ten kurs zawiera pełne wprowadzenie do programowania w języku C++, obejmujące podstawy i elementy średniozaawansowane. Kurs został zainspirowany stylem Akademia Park (struktura modułów) oraz formą prezentacji wiedzy z w3schools (zwięzłe wyjaśnienia poparte przykładami kodu). Znajdziesz tu informacje o składni C++, typach danych, operacjach, sterowaniu przepływem programu, funkcjach, tablicach, wskaźnikach oraz podstawach programowania obiektowego (klasy, dziedziczenie, polimorfizm). Wiedza podzielona jest na logiczne moduły, z których każdy zawiera kilka sekcji tematycznych z przykładami kodu i materiałami dodatkowymi.",
     "objectives": [
-      "Zbudować kompletną stronę internetową przy użyciu HTML, CSS i JS",
-      "Zrozumieć strukturę dokumentu HTML",
-      "Zastosować style CSS do poprawy wyglądu strony",
-      "Tworzyć interakcje z użytkownikiem za pomocą JavaScript"
+      "Poznasz podstawową składnię języka C++ i nauczysz się pisać proste programy",
+      " Zrozumiesz jak działają zmienne, typy danych, operatory, instrukcje warunkowe i pętle",
+      "Nauczysz się tworzyć funkcje, korzystać z tablic oraz poprawnie wprowadzać i wyprowadzać dane",
+      "Zdobędziesz solidne podstawy, które przygotują Cię do nauki bardziej zaawansowanych tematów programowania w C++"
     ],
     "modules": [
       {
         "id": 1,
-        "title": "Wprowadzenie do HTML i struktury strony",
-        "description": "Poznasz podstawowe znaczniki HTML i jak budować strukturę strony.",
+        "title": "Wprowadzenie i składnia języka C++",
+        "description": "Moduł ten omawia podstawy języka C++, jego składnię, sposób kompilacji oraz uruchamiania programów.",
         "lessons": [
           {
             "id": 1,
-            "title": "Podstawy znaczników HTML",
-            "content": "<p>HTML to język znaczników, który pozwala tworzyć strukturę strony internetowej. W tej lekcji poznasz podstawowe elementy HTML.</p><p>Znaczniki takie jak <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code> czy <code>&lt;img&gt;</code> to podstawowe budulce HTML.</p><img src='/images/html.png' alt='HTML illustration' style='max-width: 100%; margin: 1rem 0;' /><p>Więcej informacji znajdziesz na <a href='https://developer.mozilla.org/pl/docs/Web/HTML' target='_blank' rel='noopener noreferrer'>stronie MDN</a>.</p><div style='margin-top: 2rem;'><iframe width='560' height='315' src='https://www.youtube.com/embed/Ukg_U3CnJWI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>"
+            "title": "Wprowadzenie do C++",
+            "content": "<p>C++ to wydajny język programowania ogólnego przeznaczenia, stworzony przez Bjarne Stroustrupa jako rozszerzenie języka C w celu dodania paradygmatu obiektowego. Jest to język kompilowany, co oznacza, że kod źródłowy musi zostać przetłumaczony przez kompilator na kod maszynowy zrozumiały dla komputera. C++ obsługuje różne style programowania: proceduralny, obiektowy, funkcyjny i inne.</p><p>Dzięki swojej wydajności i wszechstronności C++ pozostaje szeroko stosowany w różnych dziedzinach, od systemów operacyjnych i przeglądarek po gry i aplikacje finansowe.</p><p>Kompilator i uruchamianie programu: Aby pisać programy w C++, potrzebny jest kompilator (np. GCC, Clang lub MSVC) lub środowisko programistyczne (IDE) zawierające kompilator. Przykładowo, w systemie Linux kompilacja odbywa się przez:</p><pre><code>g++ nazwa_pliku.cpp -o nazwa_programu\n./nazwa_programu</code></pre><p>W środowiskach IDE (np. Visual Studio, Code::Blocks) wystarczy kliknąć przycisk >Uruchom</strong>.</p><p>„Hello World” – pierwszy program:</strong> Tradycyjnie naukę C++ zaczyna się od programu wypisującego tekst <em>Hello, World!</em> na ekran.</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}</code></pre></div><p><strong>Omówienie:</strong> Linia <code>#include &lt;iostream&gt;</code> dołącza bibliotekę standardową odpowiedzialną za wejście/wyjście. <code>using namespace std;</code> upraszcza zapis operatorów (np. <code>cout</code> zamiast <code>std::cout</code>). Funkcja <code>main()</code> to punkt startowy programu. Instrukcja <code>cout</code> wyświetla tekst, a <code>return 0;</code> informuje o poprawnym zakończeniu programu.</p><p><strong>Komentarze:</strong> W C++ można stosować komentarze:</p><ul><li><code>// komentarz jednoliniowy</code></li><li><code>/* komentarz blokowy */</code></li></ul><p>Używanie komentarzy ułatwia zrozumienie kodu i poprawia jego czytelność, szczególnie w złożonych projektach.</p>"
           },
           {
             "id": 2,
-            "title": "Tworzenie nagłówków i akapitów",
-            "content": "Dowiesz się, jak prawidłowo używać nagłówków (h1-h6) oraz akapitów (<p>) w dokumentach HTML."
-          },
-          {
-            "id": 3,
-            "title": "Linki i obrazy",
-            "content": "Zobaczysz, jak dodawać linki (<a>) i wstawiać obrazy (<img>) do strony internetowej."
+            "title": "Podstawowa składnia C++ – rozszerzenie",
+            "content": "<p>Składnia C++ w dużej mierze opiera się na składni języka C. Podczas programowania w C++ należy przestrzegać kilku podstawowych reguł składniowych:</p><ul><li><strong>Struktura programu:</strong> Typowy program w C++ składa się z dyrektyw preprocesora (np. <code>#include &lt;...&gt;</code>), deklaracji funkcji i zmiennych globalnych oraz definicji funkcji – w tym koniecznie funkcji <code>main()</code>. Kod funkcji (instrukcje) umieszczamy wewnątrz nawiasów klamrowych <code>{ }</code>. Bloki kodu (np. ciało funkcji, pętle, instrukcje warunkowe) również ograniczamy klamrami. Klamry wyznaczają zakres (tzw. <em>blok</em>), w którym obowiązują deklaracje zmiennych.</li><li><strong>Instrukcje i średniki:</strong> Pojedyncza instrukcja (np. wywołanie funkcji <code>cout &lt;&lt; \"tekst\";</code> czy przypisanie wartości do zmiennej <code>x = 5;</code>) musi kończyć się średnikiem <code>;</code>. Średnik informuje kompilator o końcu instrukcji. Pominięcie średnika najczęściej powoduje błąd kompilacji.</li><li><strong>Wielkość liter:</strong> Język C++ rozróżnia wielkość liter. Nazwy takie jak <code>warszawa</code> i <code>Warszawa</code> będą traktowane jako dwa różne identyfikatory. Dotyczy to zarówno nazw zmiennych, funkcji, jak i słów kluczowych – np. <code>int</code> musi być napisane małymi literami (INT lub Int nie zostanie rozpoznane).</li><li><strong>Białe znaki:</strong> Spacje, tabulatory i znaki nowej linii (tzw. <em>białe znaki</em>) są generalnie ignorowane przez kompilator (wyjątkiem jest ich rola jako separatorów między tokenami). Można formatować kod wcięciami i nowymi liniami dla czytelności. Konwencja jest taka, by używać wcięć (np. 4 spacje) wewnątrz bloków <code>{ }</code>, aby wizualnie zaznaczyć zagnieżdżenie kodu.</li><li><strong>Nazewnictwo i identyfikatory:</strong> Nazwa zmiennej, funkcji czy klasy (tzw. identyfikator) powinna zaczynać się od litery (lub znaku podkreślenia <code>_</code>) i może składać się z liter, cyfr oraz znaku podkreślenia. Niedozwolone są spacje i znaki specjalne. Przykłady poprawnych nazw: <code>licznik</code>, <code>Sum1</code>, <code>_tmp</code>. Pamiętaj o czytelnych nazwach – np. <code>wiek</code> zamiast <code>w</code> – ułatwi to zrozumienie kodu.</li></ul><p><strong>Przykład formatowania kodu:</strong> Zwróć uwagę na czytelność poniższego kodu dzięki zastosowaniu wcięć i pustych linii:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    int x = 10;\n    if (x &gt; 0) {\n        cout &lt;&lt; \"x jest dodatnie\";\n    } else {\n        cout &lt;&lt; \"x nie jest dodatnie\";\n    }\n    return 0;\n}</code></pre></div><p>W powyższym kodzie widać, że instrukcje wewnątrz <code>if / else</code> zostały wcięte, a całość funkcji <code>main</code> również jest przesunięta względem deklaracji funkcji. Takie formatowanie nie jest wymagane przez kompilator, ale stanowi dobrą praktykę i znacznie poprawia czytelność kodu.</p>"
           }
         ]
       },
       {
         "id": 2,
-        "title": "CSS – stylowanie strony",
-        "description": "Nauczysz się jak stylować strony i układać elementy.",
+        "title": "Zmienne i  typy danych",
+        "description": "",
         "lessons": [
           {
             "id": 1,
-            "title": "Podstawy CSS i selektory",
-            "content": "W tej lekcji poznasz selektory CSS, sposób dołączania stylów oraz podstawowe właściwości."
+            "title": "Zmienne i typy danych podstawowe",
+            "content": "<p><strong>Zmienne</strong> stanowią podstawowy sposób przechowywania danych w programie. Zmienna to po prostu nazwana lokacja w pamięci, w której można zapisać pewną wartość (i później ją odczytać lub zmodyfikować). Każda zmienna w C++ ma <em>typ danych</em>, który określa jakiego rodzaju wartości może przechowywać oraz ile miejsca zajmie w pamięci.</p><p>Przykładowo, zmienna typu całkowitoliczbowego (<code>int</code>) może przechowywać liczby całkowite (bez części ułamkowej) z pewnego zakresu, a zmienna typu znakowego (<code>char</code>) przechowuje pojedyncze znaki.</p><p><strong>Deklaracja i inicjalizacja:</strong> Aby korzystać ze zmiennej, najpierw <em>deklarujemy</em> ją, podając jej typ i nazwę. Opcjonalnie można od razu przypisać jej wartość (inicjalizacja). Przykład:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int liczba;         // deklaracja zmiennej typu całkowitego (wartość nieokreślona)\nint a = 5;          // deklaracja zmiennej i inicjalizacja na 5\ndouble pi = 3.14;   // zmienna typu double (liczba zmiennoprzecinkowa)\nchar znak = 'A';    // zmienna typu char (pojedynczy znak)\nbool isReady = false; // zmienna typu bool (logiczny) z wartością false (fałsz)</code></pre></div><p>Po zadeklarowaniu zmiennej możemy jej używać w dalszej części programu, odwołując się do niej po nazwie. <strong>Uwaga:</strong> Dopóki nie przypiszemy zmiennej wartości, jej zawartość jest niezdefiniowana – zawsze warto ją zainicjalizować przed użyciem.</p><p><strong>Typy danych w C++:</strong> C++ udostępnia szereg podstawowych typów:</p><ul><li><strong>Liczby całkowite:</strong> <code>int</code> (zwykle 32-bit), <code>short</code> (16-bit), <code>char</code> (8-bit), <code>long</code>, <code>long long</code>.</li><li><strong>Liczby zmiennoprzecinkowe:</strong> <code>float</code> (ok. 6-7 cyfr znaczących), <code>double</code> (ok. 15 cyfr znaczących). Przykład: <code>double srednia = 4.5;</code></li><li><strong>Typ logiczny:</strong> <code>bool</code> – wartości <code>true</code> (prawda) lub <code>false</code> (fałsz).</li><li><strong>Typ znakowy:</strong> <code>char</code> – przechowuje pojedynczy znak, np. <code>'a'</code>, <code>'2'</code>, <code>'@'</code>.</li><li><strong>Łańcuchy znaków:</strong> <code>std::string</code> (z biblioteki <code>&lt;string&gt;</code>) – do przechowywania tekstu. Przykład: <code>std::string imie = \"Jan\";</code></li></ul><p>Każdy typ określa zakres możliwych wartości. Np. <code>int</code> przechowuje liczby całkowite z zakresu ok. -2 miliardów do +2 miliardów, a <code>float</code> ok. 7 cyfr znaczących (np. <code>3.1415926</code> może zostać ucięte do <code>3.141593</code>).</p><p><strong>Stałe:</strong> Można definiować wartości, które nie mogą się zmieniać – tzw. <code>const</code>:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>const double PI = 3.1415926535;\nconst int DNI_TYGODNIA = 7;</code></pre></div><p>Zmiennych takich nie można nadpisywać. Każda próba przypisania nowej wartości zakończy się błędem kompilacji.</p><p><strong>Konwersje typów:</strong> W C++ wyrażenia muszą mieć zgodne typy – dlatego czasem trzeba jawnie lub niejawnie przekonwertować dane. Przykłady:</p><ul><li><strong>Niejawne:</strong> <code>int a = 5; double b = 2.5; auto c = a + b;</code> – <code>a</code> zostanie rzutowane do <code>double</code>.</li><li><strong>Jawne:</strong> <code>double d = (double)3 / 2;</code> – rzutowanie, by uzyskać wynik <code>1.5</code>, a nie <code>1</code>.</li></ul><p>Warto uważać przy rzutowaniu (szczególnie z <code>double</code> na <code>int</code>), ponieważ może to prowadzić do utraty danych.</p>"
           },
           {
             "id": 2,
-            "title": "Kolory, czcionki, odstępy",
-            "content": "Nauczysz się zmieniać kolory tła i tekstu, ustawiać czcionki i marginesy."
-          },
-          {
-            "id": 3,
-            "title": "Flexbox i układy siatki",
-            "content": "Dowiesz się, jak tworzyć elastyczne układy przy użyciu Flexboxa i Grid Layoutu."
-          }
+            "title": "Wejście i wyjście danych (cin/cout)",
+            "content": "<p>W typowych programach konieczne jest uzyskanie danych od użytkownika oraz wyświetlanie wyników. W C++ służą do tego <strong>strumienie wejścia i wyjścia</strong> z biblioteki <code>&lt;iostream&gt;</code>:</p><ul><li><strong><code>std::cout</code></strong> – strumień wyjściowy (ang. <em>console output</em>) używany do wypisywania na ekran (domyślnie na konsolę). Używa operatora <code>&lt;&lt;</code> do przekazywania danych do wyświetlenia.</li><li><strong><code>std::cin</code></strong> – strumień wejściowy (ang. <em>console input</em>) służący do pobierania danych od użytkownika z klawiatury. Używa operatora <code>&gt;&gt;</code> (przeciwny kierunek do cout) do wczytywania wartości do zmiennych.</li></ul><p>Poniższy przykład demonstruje proste wykorzystanie <code>cin</code> i <code>cout</code>:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    int wiek;\n    cout &lt;&lt; \"Podaj swój wiek: \";\n    cin &gt;&gt; wiek;\n    cout &lt;&lt; \"Twój wiek to \" &lt;&lt; wiek &lt;&lt; \" lat.\" &lt;&lt; endl;\n    return 0;\n}</code></pre></div><p><strong>Omówienie:</strong> Program najpierw deklaruje zmienną całkowitą <code>wiek</code>. Następnie za pomocą <code>cout</code> wypisuje komunikat proszący użytkownika o podanie wieku. Funkcja <code>cin</code> wstrzymuje działanie programu, oczekując na wprowadzenie danych przez użytkownika. Wpisana liczba zostaje przypisana do zmiennej <code>wiek</code>, a następnie za pomocą <code>cout</code> wypisywane jest zdanie zawierające tę wartość.</p><p>Zauważ użycie operatora <code>&lt;&lt;</code> kilkukrotnie w jednej instrukcji – możemy łączyć teksty i zmienne w jednym wypisaniu. Po zakończeniu linii dodano <code>&lt;&lt; endl</code>, który przenosi kursor do nowej linii i opróżnia bufor wyjściowy.</p><p><strong>Wskazówki:</strong></p><ul><li><code>cin</code> domyślnie rozdziela dane po <em>białych znakach</em>, np. spacja, enter – przy wpisywaniu tekstu zatrzyma się na pierwszym znaku białym.</li><li>Aby wczytać całe zdanie (łącznie ze spacjami), użyj funkcji <code>std::getline</code>.</li><li>Jeśli użytkownik wpisze dane w formacie niezgodnym z oczekiwanym (np. tekst zamiast liczby), <code>cin</code> wejdzie w stan błędu i zmienne nie zostaną zmienione. W poważniejszych programach trzeba to obsłużyć przez <code>cin.fail()</code>.</li></ul>"
+          }   
         ]
       },
       {
         "id": 3,
-        "title": "JavaScript – interakcje",
-        "description": "Dodasz interaktywność do strony dzięki JavaScript.",
+        "title": "Zmienne i  typy danych",
+        "description": "",
         "lessons": [
           {
             "id": 1,
-            "title": "Zmienne, funkcje i zdarzenia",
-            "content": "Poznasz podstawy JavaScript – zmienne, funkcje, obsługę zdarzeń oraz jak reagować na działania użytkownika."
+            "title": "Operatory arytmetyczne i przypisania",
+            "content": "<p><strong>Operatory arytmetyczne</strong> pozwalają wykonywać podstawowe działania matematyczne na liczbach:</p><ul><li><code>+</code> (dodawanie)</li><li><code>-</code> (odejmowanie)</li><li><code>*</code> (mnożenie)</li><li><code>/</code> (dzielenie)</li><li><code>%</code> (reszta z dzielenia, modulo)</li></ul><p><strong>Przykład użycia:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int a = 10, b = 3;\ncout &lt;&lt; a + b;  // wypisze 13 (10 + 3)\ncout &lt;&lt; a - b;  // wypisze 7  (10 - 3)\ncout &lt;&lt; a * b;  // wypisze 30 (10 * 3)\ncout &lt;&lt; a / b;  // wypisze 3  (dzielenie całkowite 10 / 3)\ncout &lt;&lt; a % b;  // wypisze 1  (reszta z dzielenia 10 przez 3 to 1)</code></pre></div><p>Zwróć uwagę: jeśli dzielisz liczby całkowite, wynik też będzie całkowity – część ułamkowa zostaje odcięta. Aby uzyskać wynik z ułamkiem, przynajmniej jeden z operandów musi być typu zmiennoprzecinkowego (np. <code>10.0 / 3</code> daje <code>3.333...</code>). Operator <code>%</code> działa tylko na liczbach całkowitych i zwraca resztę z dzielenia.</p><h3>Operatory przypisania</h3><p>Podstawowy operator przypisania to <code>=</code>. Umożliwia przypisanie wartości do zmiennej:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int x = 5;</code></pre></div><p>Można też tworzyć łańcuchy przypisań:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int a, b;\na = b = 0; // ustawia a i b na 0</code></pre></div><h3>Złożone operatory przypisania</h3><p>C++ udostępnia operatory łączące przypisanie z działaniem arytmetycznym:</p><ul><li><code>+=</code> (dodaj i przypisz), np. <code>x += 3;</code></li><li><code>-=</code> (odejmij i przypisz), np. <code>y -= 2;</code></li><li><code>*=</code> (pomnóż i przypisz), np. <code>z *= 10;</code></li><li><code>/=</code> i <code>%=</code> – analogicznie do dzielenia i modulo</li></ul><p>Przykład użycia:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int num = 8;\nnum += 2; // num = 10\nnum -= 3; // num = 7\nnum *= 5; // num = 35\nnum /= 7; // num = 5\ncout &lt;&lt; num; // wypisze 5</code></pre></div><h3>Inkrementacja i dekrementacja</h3><p>Do zwiększania lub zmniejszania wartości o 1 służą operatory:</p><ul><li><code>++</code> – inkrementacja</li><li><code>--</code> – dekrementacja</li></ul><p>Można je stosować jako:</p><ul><li><strong>postfiksowe</strong> (po zmiennej): <code>i++</code></li><li><strong>prefiksowe</strong> (przed zmienną): <code>++i</code></li></ul><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int i = 7;\ni++;  // post: zwiększa i do 8\n++i;  // pre: zwiększa i do 9</code></pre></div><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int j = 5;\nint k = j++;\n// k = 5 (wartość przed zwiększeniem), j = 6\nint m = ++j;\n// j = 7, m = 7 (wartość po zwiększeniu)</code></pre></div><p>Różnica: <code>i++</code> zwraca wartość przed zwiększeniem, <code>++i</code> po zwiększeniu. W prostych instrukcjach nie ma to większego znaczenia, ale w złożonych wyrażeniach warto uważać, aby uniknąć nieczytelności lub błędów logicznych.</p>"
           },
           {
             "id": 2,
-            "title": "Manipulacja DOM",
-            "content": "Nauczysz się pobierać i modyfikować elementy HTML za pomocą JavaScript (DOM)."
+            "title": "Operatory porównania i logiczne",
+            "content": "<p>Do porównywania wartości służą <strong>operatory porównania</strong>. Wynikiem porównania jest wartość logiczna <code>true</code> (prawda) lub <code>false</code> (fałsz):</p><ul><li><code>==</code> – równość (zwraca <code>true</code>, jeśli oba operandy są równe). Np. <code>x == y</code> jest <code>true</code> gdy <code>x</code> i <code>y</code> mają taką samą wartość.</li><li><code>!=</code> – różność (<code>true</code>, jeśli operandy nie są równe). Np. <code>x != 0</code> jest <code>true</code>, gdy <code>x</code> ma wartość inną niż 0.</li><li><code>&gt;</code> – większy niż; <code>&lt;</code> – mniejszy niż.</li><li><code>&gt;=</code> – większy lub równy; <code>&lt;=</code> – mniejszy lub równy.</li></ul><p>Przykład:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int a = 5, b = 8;\nbool wynik1 = (a == b);   // false, bo 5 nie jest równe 8\nbool wynik2 = (a &lt; b);    // true, bo 5 jest mniejsze od 8\nbool wynik3 = (a &gt;= 0);   // true, bo 5 &gt;= 0\nbool wynik4 = (a != b);   // true, bo 5 != 8</code></pre></div><p>Zmienne <code>wynik1</code>, <code>wynik2</code> itd. typu <code>bool</code> przechowują rezultat porównań. Można je też od razu użyć w instrukcjach warunkowych.</p><p>W języku C++ wartości logiczne <code>true</code> i <code>false</code> są wewnętrznie reprezentowane jako <code>1</code> i <code>0</code>. Jeśli spróbujemy wypisać zmienną typu <code>bool</code> przez <code>cout</code>, domyślnie zobaczymy 1 dla <code>true</code> lub 0 dla <code>false</code>. Można to zmienić używając:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>cout &lt;&lt; boolalpha &lt;&lt; zmienna_bool;</code></pre></div><p>Dzięki temu <code>true</code> / <code>false</code> będą wypisane słownie.</p><h3>Operatory logiczne</h3><p>Pozwalają łączyć warunki (wartości boolowskie) oraz negować pojedyncze:</p><ul><li><code>&amp;&amp;</code> – koniunkcja (AND, logiczne „i”): <code>expr1 &amp;&amp; expr2</code> jest <code>true</code> tylko jeśli oba wyrażenia są <code>true</code>.</li><li><code>||</code> – alternatywa (OR, logiczne „lub”): <code>expr1 || expr2</code> jest <code>true</code>, jeśli co najmniej jedno z wyrażeń jest <code>true</code>.</li><li><code>!</code> – negacja (NOT, logiczne „nie”): <code>!expr</code> jest <code>true</code>, jeśli <code>expr</code> jest <code>false</code>.</li></ul><p>Przykład:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int x = 7;\nbool warunek = (x &gt; 0) &amp;&amp; (x &lt; 10);       // true, x jest jednocześnie &gt; 0 i &lt; 10\nbool warunek2 = (x % 2 == 0) || (x &lt; 0);   // false, x nie jest parzyste ani ujemne\nbool odwrotny = !warunek;                  // false, odwrotność wartości warunek</code></pre></div><h3>Objaśnienie:</h3><ul><li><code>warunek</code> będzie <code>true</code>, jeśli <code>x</code> jest większe od 0 <em>i</em> jednocześnie mniejsze od 10. Dla <code>x = 7</code> to prawda.</li><li><code>warunek2</code> będzie <code>true</code>, jeśli <code>x</code> jest liczbą parzystą <em>lub</em> ujemną. <code>x = 7</code> nie spełnia żadnego z warunków – wynik to <code>false</code>.</li><li><code>odwrotny</code> to negacja <code>warunek</code>. Skoro <code>warunek</code> był <code>true</code>, <code>odwrotny</code> to <code>false</code>.</li></ul><h3>Właściwości operatorów logicznych</h3><p><code>&amp;&amp;</code> i <code>||</code> są <strong>leniwe</strong> – jeśli wartość całego wyrażenia można ustalić po sprawdzeniu pierwszego warunku, drugi nie jest w ogóle ewaluowany:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>if (ptr != nullptr &amp;&amp; *ptr &gt; 0) { ... }</code></pre></div><p>Jeśli <code>ptr</code> jest puste, <code>*ptr</code> nie zostanie sprawdzone, co chroni przed błędem. Takie podejście poprawia wydajność i bezpieczeństwo.</p><h3>Priorytety operatorów</h3><p>Operatory arytmetyczne, porównania i logiczne mają zdefiniowany priorytet (kolejność wykonywania). Najwyższy ma <code>!</code>, potem porównania (<code>&lt;</code>, <code>&gt;</code>, <code>==</code>), a najniższy <code>&amp;&amp;</code> i <code>||</code>. W razie wątpliwości używaj nawiasów, np.:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>x &lt; b || a &lt; c &amp;&amp; d == e</code></pre></div><p>To równoważne z:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>x &lt; b || (a &lt; c &amp;&amp; d == e)</code></pre></div><p>Jeśli chcesz wymusić inną kolejność, użyj nawiasów zgodnie z zamierzeniem.</p>"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Pętle",
+        "description": "",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Instrukcja if ... else",
+            "content": "<p><strong>Instrukcje warunkowe</strong> pozwalają wykonać określony blok kodu tylko wtedy, gdy spełniony jest zadany warunek logiczny. Podstawową konstrukcją jest <code>if</code>. Składnia wygląda następująco:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>if (warunek) {\n    // blok kodu wykonywany, gdy warunek jest spełniony (true)\n}</code></pre></div><p>W nawiasie po <code>if</code> umieszczamy wyrażenie, które zostanie zinterpretowane jako warunek logiczny. Jeśli wynik tego wyrażenia jest <code>true</code> (lub wartość niezerowa w przypadku liczbowym), wykonywany jest blok instrukcji w klamrach. Jeśli wynik to <code>false</code> (zero), blok jest pomijany.</p><p>Często chcemy wykonać alternatywne działania w przypadku niespełnienia warunku. Służy do tego <code>else</code>:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>if (warunek) {\n    // gdy warunek true\n} else {\n    // gdy warunek false\n}</code></pre></div><p>Blok po <code>else</code> wykona się tylko wtedy, gdy warunek w <code>if</code> okaże się fałszywy. Dzięki temu mamy dwie ścieżki wykonania – jedną dla przypadku spełnienia warunku i drugą dla przypadku przeciwnego.</p><p>Przykład zastosowania <code>if/else</code>:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int temperatura = -5;\nif (temperatura &lt; 0) {\n    cout &lt;&lt; \"Jest mroz\";  // wykonane, gdy temperatura poniżej zera\n} else {\n    cout &lt;&lt; \"Temperatura powyżej zera\";  // wykonane, gdy temperatura >= 0\n}</code></pre></div><p>Dla <code>temperatura = -5</code> warunek <code>temperatura &lt; 0</code> jest prawdziwy, więc program wypisze „Jest mróz”.</p><h3>Else if</h3><p>Możemy łączyć wiele warunków sekwencyjnie za pomocą konstrukcji <code>else if</code>. Pozwala to sprawdzać kolejne warunki, gdy poprzednie okażą się fałszywe:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>if (warunek1) {\n    // gdy warunek1 true\n} else if (warunek2) {\n    // gdy warunek1 false, a warunek2 true\n} else if (warunek3) {\n    // gdy warunek1 i warunek2 false, a warunek3 true\n} else {\n    // gdy żaden z warunków nie był true\n}</code></pre></div><p>Program przechodzi przez kolejne warunki od góry. Gdy natrafi na pierwszy spełniony warunek, wykona odpowiedni blok kodu i pominie resztę (nie sprawdza dalszych warunków).</p><p>Przykład:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int liczba = 0;\nif (liczba &gt; 0) {\n    cout &lt;&lt; \"dodatnia\";\n} else if (liczba &lt; 0) {\n    cout &lt;&lt; \"ujemna\";\n} else {\n    cout &lt;&lt; \"zero\";\n}</code></pre></div><p>Ten fragment kodu sprawdza znak liczby całkowitej. Mamy trzy rozłączne warunki:</p><ul><li>jeśli <code>liczba &gt; 0</code> – wypisze „dodatnia”</li><li>w przeciwnym razie, jeśli <code>liczba &lt; 0</code> – wypisze „ujemna”</li><li>w przeciwnym razie (czyli liczba = 0) – wypisze „zero”</li></ul><p><strong>Uwaga:</strong> pojedyncza instrukcja po <code>if</code> lub <code>else</code> nie wymaga klamer, ale ich stosowanie jest zalecane. Można pisać też tak:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>if (x &gt; 0)\n    cout &lt;&lt; \"plus\";\nelse\n    cout &lt;&lt; \"nie plus\";</code></pre></div><p>Jednak brak klamer może być źródłem błędów przy dalszej rozbudowie kodu – dlatego dla przejrzystości zawsze warto używać <code>{ }</code>.</p><h3>Konwersja na bool</h3><p>Warunek w <code>if</code> oczekuje wartości logicznej. Jeśli przekażemy tam wartość liczbową, zostanie ona niejawnie skonwertowana: wartość zero to <code>false</code>, każda inna to <code>true</code>. Np.:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>if (x)  // sprawdza czy x != 0</code></pre></div><p>Zalecamy jednak jawnie pisać warunki dla lepszej czytelności, np. <code>if (x != 0)</code> zamiast <code>if (x)</code>.</p>"
+          },
+          {
+            "id": 2,
+            "title": "Instrukcja switch ... case",
+            "content": "<p>Instrukcja <code>switch</code> stanowi wygodny sposób sprawdzania wartości zmiennej (najczęściej zmiennej liczbowej lub wyliczeniowej) względem wielu możliwych opcji. Można ją traktować jako alternatywę dla szeregu instrukcji <code>if ... else if</code>, gdy porównujemy tę samą zmienną do różnych stałych wartości.</p><p>Składnia jest następująca:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>switch (wyrazenie) {\n    case stala1:\n        // kod dla przypadku gdy wyrazenie == stala1\n        break;\n    case stala2:\n        // kod dla przypadku gdy wyrazenie == stala2\n        break;\n    ...\n    default:\n        // kod gdy żaden z powyższych przypadków nie pasuje\n}</code></pre></div><p><strong>Działanie:</strong> wyrażenie wewnątrz <code>switch</code> (w nawiasach) zostanie obliczone, a następnie jego wartość będzie kolejno porównywana do wartości w etykietach <code>case</code>. Gdy znajdzie się pasujący <code>case</code>, wykonanie programu przechodzi do tego miejsca i kontynuuje działanie.</p><p><strong>Ważne:</strong> Na końcu każdego przypadku zwykle umieszczamy instrukcję <code>break</code>, aby przerwać dalsze wykonywanie <code>switch</code>. Jeśli <code>break</code> pominiemy, kod <em>przeleci</em> przez kolejne <code>case</code>’y (tzw. <em>fall-through</em>), co w większości przypadków nie jest pożądane.</p><p>Etykieta <code>default</code> (opcjonalna) oznacza blok kodu, który zostanie wykonany, jeśli żadna z podanych etykiet <code>case</code> nie pasuje do wartości wyrażenia. Działa podobnie do finalnego <code>else</code> w <code>if/else</code>.</p><h3>Przykład zastosowania switch – prosty tekstowy program menu:</h3><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int wybor;\ncout &lt;&lt; \"Wybierz opcję: 1 - Nowa gra, 2 - Wczytaj grę, 3 - Wyjdź\\n\";\ncin &gt;&gt; wybor;\nswitch (wybor) {\n    case 1:\n        cout &lt;&lt; \"Uruchamianie nowej gry...\\n\";\n        break;\n    case 2:\n        cout &lt;&lt; \"Wczytywanie gry...\\n\";\n        break;\n    case 3:\n        cout &lt;&lt; \"Koniec programu.\\n\";\n        break;\n    default:\n        cout &lt;&lt; \"Nie ma takiej opcji!\\n\";\n}</code></pre></div><h3>Analiza:</h3><ul><li>Użytkownik wprowadza liczbę od 1 do 3 wybierając opcję. <code>switch</code> sprawdza zmienną <code>wybor</code>.</li><li>Gdy <code>wybor == 1</code>, wykonywany jest kod po <code>case 1</code>: wypisuje się komunikat o uruchomieniu gry i następuje <code>break</code>.</li><li>Dla <code>wybor == 2</code> wykonuje się <code>case 2</code> z odpowiednim komunikatem.</li><li>Dla <code>wybor == 3</code> wypisywana jest informacja o zakończeniu programu.</li><li>Jeśli wartość <code>wybor</code> nie pasuje do żadnego z <code>case</code>’ów (np. 0, 4, 99, znak), wykonany zostanie blok <code>default</code>.</li></ul><h3>Dlaczego break jest ważny?</h3><p>Jeśli w powyższym przykładzie zapomnimy np. <code>break</code> w <code>case 1</code>, to po wypisaniu „Uruchamianie nowej gry...” program <em>kontynuowałby wykonanie kolejnych case’ów</em> aż do napotkania <code>break</code> lub końca switcha. Może to prowadzić do niechcianych efektów i błędów logicznych.</p><h3>Zastosowanie switch:</h3><p>Switch sprawdza się głównie przy porównywaniu jednej zmiennej/wyrażenia do wielu stałych wartości. Należy pamiętać, że <code>case</code> muszą być stałymi (literały, stałe typu <code>enum</code>, definicje <code>#define</code>, <code>const</code> znane w czasie kompilacji) – nie mogą zależeć od zmiennych obliczanych w runtime.</p><p>Typ wyrażenia w <code>switch</code> najczęściej jest całkowity lub enumerowany. W nowoczesnym C++17 dopuszcza się też <code>std::string</code> i klasy z <code>constexpr</code>-porównaniem w czasie kompilacji, ale w C++11/14 nie można używać <code>switch</code> na napisach ani liczbach zmiennoprzecinkowych.</p>"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Instrukcje warunkowe",
+        "description": "",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Pętla for",
+            "content": "<p>Pętle umożliwiają powtarzanie fragmentu kodu wielokrotnie. Zacznijmy od najbardziej klasycznej pętli <code>for</code>, która jest często używana, gdy z góry znamy liczbę powtórzeń lub chcemy iterować po kolei po pewnym zakresie wartości.</p><p><strong>Składnia pętli for:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>for (inicjalizacja; warunek; aktualizacja) {\n    // blok instrukcji do powtarzania\n}</code></pre></div><p><strong>Działanie pętli <code>for</code>:</strong></p><ol><li>Wykonywana jest <strong>inicjalizacja</strong> – najczęściej deklaracja i ustawienie zmiennej sterującej pętlą (np. licznika).</li><li>Sprawdzany jest <strong>warunek</strong>. Jeśli warunek jest false od razu na starcie – pętla kończy działanie (blok nie zostanie wykonany ani razu). Jeśli warunek jest true – wchodzimy do bloku pętli.</li><li>Wykonywany jest blok instrukcji pętli.</li><li>Po wykonaniu bloku wykonywana jest <strong>aktualizacja</strong> – zwykle zmiana wartości licznika (np. inkrementacja).</li><li>Następnie ponownie sprawdzany jest warunek i cykl się powtarza dopóki warunek jest spełniony.</li></ol><p><strong>Typowy przykład: wypisanie liczb od 1 do 5:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>for (int i = 1; i &lt;= 5; ++i) {\n    cout &lt;&lt; i &lt;&lt; \" \";\n}</code></pre></div><p><strong>Wynik:</strong> Program wypisze: <code>1 2 3 4 5</code>.</p><h3>Analiza:</h3><ul><li><strong>Inicjalizacja:</strong> <code>int i = 1;</code> – tworzymy licznik <code>i</code> i ustawiamy go na 1.</li><li><strong>Warunek:</strong> <code>i &lt;= 5</code> – dopóki <code>i</code> jest mniejsze lub równe 5, iteracje będą kontynuowane.</li><li><strong>Aktualizacja:</strong> <code>++i</code> – po każdej iteracji zwiększamy <code>i</code> o 1 (preinkrementacja).</li><li><strong>Treść pętli:</strong> <code>cout &lt;&lt; i &lt;&lt; \" \";</code> – wypisujemy aktualną wartość <code>i</code> i spację.</li></ul><h3>Przebieg:</h3><ul><li>i = 1 (1 &lt;= 5 → true) → wypisz „1” → ++i (i = 2)</li><li>i = 2 (2 &lt;= 5 → true) → wypisz „2” → i = 3</li><li>i = 3 → wypisz „3” → i = 4</li><li>i = 4 → wypisz „4” → i = 5</li><li>i = 5 → wypisz „5” → i = 6</li><li>i = 6 → (6 &lt;= 5 → false) → warunek fałszywy, koniec pętli</li></ul><p>Widać, że pętla wykonała się 5 razy (dla i = 1, 2, 3, 4, 5). Po zakończeniu zmienna <code>i</code> ma wartość 6 (warto o tym pamiętać, jeśli używamy jej później – czasem po pętli stan licznika jest wykorzystany do dalszych obliczeń).</p><h3>Zastosowania pętli for:</h3><ul><li><strong>Iteracja w zadanym zakresie:</strong> np. przejście po elementach tablicy.</li><li><strong>Wykonywanie czegoś określoną ilość razy:</strong> np. 10-krotne pobranie danych od użytkownika.</li><li><strong>Tworzenie tablic, list wyników:</strong> np. generowanie tabelki wartości funkcji matematycznej co pewien krok.</li></ul><p>Pętlę <code>for</code> można skonstruować również bez niektórych elementów składniowych:</p><ul><li>Można pominąć <strong>inicjalizację</strong> w nawiasie <code>for</code>, jeśli zmienna jest przygotowana wcześniej.</li><li>Można pominąć <strong>aktualizację</strong> wewnątrz nawiasu <code>for</code> (np. aktualizować licznik na końcu bloku pętli manualnie).</li><li>Można nawet pominąć <strong>warunek</strong> – wtedy domyślnie traktowany jest jako <code>true</code>, czyli tworzymy pętlę nieskończoną, z której trzeba wyjść inaczej (np. <code>break</code>).</li></ul><p><strong>Przykład:</strong> <code>for (;;)</code> to nieskończona pętla for (ani inicjalizacji, ani warunku, ani aktualizacji). Takiej składni używa się jednak rzadko – zwykle bardziej czytelna jest nieskończona pętla <code>while(true)</code>.</p>"
+          },
+          {
+            "id": 2,
+            "title": "Pętla while i do...while",
+            "content": "<p>Drugim rodzajem pętli jest <code>while</code> – ma nieco prostszą budowę i przydaje się, gdy nie wiadomo z góry ile razy pętla ma się wykonać (warunek jest sprawdzany za każdym razem przed wykonaniem bloku i typowo jakaś operacja wewnątrz pętli prowadzi do spełnienia warunku kończącego).</p><p><strong>Składnia pętli while:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>while (warunek) {\n    // blok kodu powtarzany dopóki warunek jest true\n}</code></pre></div><p><strong>Działanie:</strong> Dopóki warunek jest spełniony (<code>true</code>), dopóty wykonuj zawartość pętli. Warunek jest sprawdzany przed każdą iteracją (również przed pierwszą). Jeśli od razu na początku okaże się <code>false</code>, blok pętli nie wykona się ani razu.</p><p><strong>Przykład – użycie pętli while do osiągnięcia tego samego efektu co pętla for:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int j = 1;\nwhile (j &lt;= 5) {\n    cout &lt;&lt; j &lt;&lt; \" \";\n    j++; // musimy sami zadbać o zwiększenie licznika wewnątrz pętli\n}</code></pre></div><p>Ten kod również wypisze: <code>1 2 3 4 5</code>. Zaczynamy od <code>j = 1</code>. Sprawdzamy warunek (<code>1 &lt;= 5</code> → true) i wchodzimy do pętli – wypisujemy wartość i zwiększamy <code>j</code>. Następnie wracamy do sprawdzenia warunku z nowym <code>j</code>. Gdy <code>j</code> osiągnie 6, warunek będzie fałszywy i pętla zakończy działanie.</p><p><strong>Uwaga:</strong> W pętli <code>while</code> musimy pamiętać o zmianie zmiennych wpływających na warunek wewnątrz pętli, inaczej możemy utknąć w pętli nieskończonej. W powyższym przykładzie konieczne było ręczne <code>j++</code> wewnątrz pętli. Gdyby tego zabrakło, <code>j</code> zawsze byłoby 1 i warunek <code>j &lt;= 5</code> byłby zawsze prawdziwy – pętla działałaby w nieskończoność (dopóki ręcznie jej nie przerwiemy).</p><h3>Pętla nieskończona</h3><p>Czasami takie nieskończone pętle są zamierzone – np. program ma działać w nieskończonym cyklu obsługując jakieś zdarzenia dopóki użytkownik go nie zamknie. Wówczas stosujemy <code>while(true)</code> lub inną konstrukcję nieskończoną, a w środku używamy instrukcji <code>break</code> do przerwania pętli przy pewnym zdarzeniu.</p><h3>Pętla do...while</h3><p>Trzecią konstrukcją powtarzającą jest <code>do...while</code>, która różni się tym, że warunek sprawdzany jest po wykonaniu bloku. Gwarantuje to co najmniej jednokrotne wykonanie zawartości pętli, nawet jeśli warunek jest na początku fałszywy.</p><p><strong>Składnia:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>do {\n    // blok kodu\n} while (warunek);</code></pre></div><p>Zwróć uwagę na średnik <code>;</code> po warunku – jest wymagany w <code>do...while</code> (co odróżnia ją składniowo od zwykłego <code>while</code> na początku).</p><p><strong>Działanie:</strong> Najpierw wykona się blok w <code>{ }</code>, a dopiero potem sprawdzany jest <code>warunek</code>. Jeśli <code>warunek</code> jest true – pętla zatoczy kolejny cykl. Jeśli false – nastąpi wyjście z pętli.</p><p><strong>Przykład:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int k = 1;\ndo {\n    cout &lt;&lt; \"Iteracja nr \" &lt;&lt; k &lt;&lt; endl;\n    k++;\n} while (k &lt;= 3);</code></pre></div><p><strong>Wynik:</strong></p><pre><code>Iteracja nr 1\nIteracja nr 2\nIteracja nr 3</code></pre><p>Pętla wypisuje numer iteracji i zwiększa licznik, a następnie sprawdza czy <code>k &lt;= 3</code>. Pętla wykonała się 3 razy (dla k = 1, 2, 3). Gdy <code>k</code> zostało zwiększone do 4, warunek stał się fałszywy i pętla zakończyła działanie.</p><p>Gdyby w powyższym kodzie zmienna <code>k</code> początkowo wynosiła np. 10, to pętla <code>do...while</code> i tak wykonałaby się raz, bo sprawdzenie warunku nastąpiłoby dopiero po pierwszym wykonaniu bloku. W takim przypadku zadziałałaby jak pojedynczy blok kodu.</p><p>Dla porównania zwykła pętla <code>while(k &lt;= 3)</code> z <code>k = 10</code> nie wykonałaby się ani razu.</p><h3>Kiedy używać do...while?</h3><p>Stosujemy ją, gdy <em>co najmniej jedno wykonanie</em> pętli jest potrzebne bez względu na warunek. Przykładem może być ponawianie pytania do użytkownika do momentu otrzymania poprawnej odpowiedzi – najpierw i tak musimy zadać pytanie, potem sprawdzamy odpowiedź i ewentualnie pytamy ponownie. <code>do...while</code> nadaje się do tego znakomicie.</p>"
           },
           {
             "id": 3,
-            "title": "Tworzenie prostych akcji",
-            "content": "Zastosujesz JS do dynamicznych interakcji, np. pokazywania/ukrywania elementów, walidacji formularzy."
+            "title": "Przerywanie i pomijanie iteracji: break i continue",
+            "content": "<p><strong><code>break</code></strong> – instrukcja ta służy do natychmiastowego przerwania pętli. Po wykonaniu <code>break</code> następuje wyjście z najbardziej wewnętrznej pętli, w której się znajdujemy (program kontynuuje działanie za tą pętlą). Używamy <code>break</code>, gdy np. znaleźliśmy już to, czego szukaliśmy i dalsze iteracje nie są potrzebne, lub gdy wystąpił jakiś warunek wyjątkowy wymagający zakończenia powtarzania.</p><p><strong><code>continue</code></strong> – ta instrukcja powoduje przeskoczenie do następnej iteracji pętli (pomija dalsze wykonywanie bieżącej iteracji). Gdy <code>continue</code> zostanie wykonane, sterowanie przechodzi od razu do momentu sprawdzenia warunku pętli (oraz ew. do sekcji <code>aktualizacji</code> w przypadku pętli <code>for</code>), z pominięciem reszty instrukcji w bloku.</p><p><strong>Przykład użycia <code>break</code></strong> – znajdowanie pierwszej liczby większej od 100 w tablicy:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int arr[10] = {5, 20, 50, 130, 8, 45, 200, 1, 0, 14};\nfor (int i = 0; i &lt; 10; ++i) {\n    if (arr[i] &gt; 100) {\n        cout &lt;&lt; \"Znaleziono liczbę &gt;100: \" &lt;&lt; arr[i] &lt;&lt; endl;\n        break;\n    }\n}\ncout &lt;&lt; \"Koniec szukania.\\n\";</code></pre></div><p>Program przeszukuje kolejne elementy tablicy <code>arr</code>. Gdy trafi na element większy niż 100 (w przykładzie będzie to 130 przy <code>i=3</code>), wypisuje informację i wykonuje <code>break</code>, które przerywa pętlę <code>for</code> – dzięki czemu dalsze elementy nie będą już sprawdzane (nie ma takiej potrzeby, chcieliśmy znaleźć <em>pierwszy</em> pasujący element). Po pętli wypisujemy komunikat „Koniec szukania”.</p><p><strong>Przykład użycia <code>continue</code></strong> – wypisanie liczb od 1 do 10 pomijając te podzielne przez 3:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>for (int n = 1; n &lt;= 10; ++n) {\n    if (n % 3 == 0)\n        continue;  // pomiń liczby podzielne przez 3\n    cout &lt;&lt; n &lt;&lt; \" \";\n}</code></pre></div><p>Dla <code>n</code> równego 3, 6, 9 warunek <code>n % 3 == 0</code> będzie true, więc wykonane zostanie <code>continue</code>. Spowoduje to natychmiastowe przejście do kolejnej iteracji – czyli pominięcie instrukcji <code>cout &lt;&lt; n</code>; dla tych wartości nic nie zostanie wypisane.</p><p>W efekcie zostaną wypisane jedynie liczby: <code>1 2 4 5 7 8 10</code> (bez 3, 6, 9). Pętla nadal wykona pełnych 10 iteracji, ale trzy z nich nie doprowadzą do wywołania <code>cout</code> z powodu <code>continue</code>.</p><p><strong>Uwaga:</strong> Nadużywanie <code>break</code> i <code>continue</code> może czasem uczynić kod mniej czytelnym, ale w wielu sytuacjach poprawiają one przejrzystość (eliminując konieczność używania dodatkowych zagnieżdżonych <code>if</code>ów). Używaj ich z umiarem i zgodnie z intencją, a pętle staną się bardziej elastyczne.</p>"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Funkcje",
+        "description": "",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Definiowanie i wywoływanie funkcji",
+            "content": "<p>W większych programach korzystnie jest dzielić kod na mniejsze fragmenty realizujące określone zadania. Funkcje (ang. <em>functions</em>, w kontekście obiektowym zwane też metodami) to właśnie wydzielone podprogramy, które można wielokrotnie wywoływać w różnych miejscach kodu. C++ przejął składnię funkcji z języka C.</p><h3>Składnia definicji funkcji:</h3><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>typ_zwrotny nazwa_funkcji(parametry) {\n    // instrukcje składające się na ciało funkcji\n    return wyrażenie; // (opcjonalnie, zależy od typu_zwrotnego)\n}</code></pre></div><ul><li><code>typ_zwrotny</code> – typ wartości, którą funkcja zwraca jako wynik. Jeśli funkcja nic nie zwraca, używamy słowa kluczowego <code>void</code>.</li><li><code>nazwa_funkcji</code> – dowolna nazwa identyfikująca funkcję (te same zasady nazewnictwa jak dla zmiennych).</li><li><code>parametry</code> – lista parametrów wejściowych funkcji. Każdy parametr to para: typ oraz nazwa (np. <code>int a, double b</code>). Parametry zachowują się jak zmienne lokalne wewnątrz funkcji, inicjalizowane wartościami przekazanymi podczas wywołania. Jeśli funkcja nie przyjmuje żadnych argumentów, można napisać <code>(void)</code> – pustą listę.</li><li><code>return</code> – instrukcja zwracająca wartość z funkcji. Pojawia się tylko jeśli <code>typ_zwrotny</code> jest inny niż <code>void</code>. Wyrażenie po <code>return</code> musi być zgodne z typem zwrotnym. Powoduje natychmiastowe zakończenie wykonywania funkcji i przekazanie wyniku.</li></ul><h3>Przykład funkcji dodającej dwie liczby całkowite:</h3><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int dodaj(int x, int y) {\n    int suma = x + y;\n    return suma;\n}\n\n// ...\nint wynik = dodaj(3, 4);\ncout &lt;&lt; \"3 + 4 = \" &lt;&lt; wynik &lt;&lt; endl;</code></pre></div><h3>Analiza:</h3><ul><li>wartość 3 zostaje przypisana do parametru <code>x</code></li><li>wartość 4 zostaje przypisana do parametru <code>y</code></li><li>następnie wykonuje się ciało funkcji: obliczenie sumy i <code>return</code></li><li>funkcja zwraca wartość 7 do miejsca wywołania – zastępuje to wywołanie w wyrażeniu</li><li>można przypisać wartość do zmiennej lub użyć od razu</li><li>po zakończeniu funkcji następuje powrót do następnej instrukcji w kontekście głównym (np. <code>main</code>)</li></ul><p><strong>Wynik działania:</strong> <code>3 + 4 = 7</code></p><h3>Parametry i argumenty:</h3><p>W definicji funkcji mówimy o <em>parametrach formalnych</em> (<code>x</code> i <code>y</code>), a przy wywołaniu – <em>argumentach aktualnych</em> (3 i 4). Kompilator sprawdza zgodność typów i ilości argumentów. Jeśli coś się nie zgadza – wystąpi błąd kompilacji lub nieoczekiwany wynik.</p><h3>Funkcje typu void:</h3><p>Nie zawsze musimy coś zwracać. Możemy zdefiniować funkcję, która wykonuje tylko działanie np. wypisanie tekstu:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>void powitanie(string imie) {\n    cout &lt;&lt; \"Witaj, \" &lt;&lt; imie &lt;&lt; \"!\\n\";\n}\n\n// wywołanie:\npowitanie(\"Anna\");</code></pre></div><p><code>powitanie</code> przyjmuje jeden parametr typu <code>string</code> i nic nie zwraca. Nie ma potrzeby pisać <code>return</code>, choć można to zrobić by zakończyć wykonanie funkcji wcześniej.</p><h3>Zmienna lokalna:</h3><p>Zmienna <code>suma</code> wewnątrz funkcji <code>dodaj</code> istnieje tylko w czasie działania tej funkcji. Po zakończeniu funkcji znika z pamięci. Każde wywołanie funkcji tworzy nową instancję takich zmiennych lokalnych.</p><h3>Prototypy funkcji:</h3><p>W C++ kolejność definicji ma znaczenie – funkcja musi być znana przed jej użyciem. Jeśli chcemy wywołać funkcję np. w <code>main</code> zanim została zdefiniowana, musimy zadeklarować ją wcześniej poprzez <em>prototyp</em>:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int dodaj(int x, int y);  // prototyp\n\nint main() {\n    cout &lt;&lt; dodaj(2, 3);\n    return 0;\n}\n\nint dodaj(int x, int y) {\n    return x + y;\n}</code></pre></div><p>Dzięki prototypowi kompilator wie, że funkcja <code>dodaj</code> istnieje i jakich parametrów się spodziewać. Alternatywnie, możemy po prostu zdefiniować funkcję przed <code>main</code>.</p>"
+          },
+          {
+            "id": 2,
+            "title": "Parametry funkcji: przez wartość vs. przez referencję",
+            "content": "<p>Domyślnie parametry w C++ są przekazywane do funkcji <strong>przez wartość</strong>. Oznacza to, że do funkcji trafiają <em>kopie</em> przekazanych argumentów. Zmiana parametru wewnątrz funkcji nie wpływa na zmienną z argumentem zewnętrznym.</p><p><strong>Przykład:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>void zwieksz_o_jeden(int x) {\n    x = x + 1;\n    cout &lt;&lt; \"Wewnątrz funkcji x = \" &lt;&lt; x &lt;&lt; endl;\n}\n\nint a = 5;\nzwieksz_o_jeden(a);\ncout &lt;&lt; \"Po funkcji a = \" &lt;&lt; a &lt;&lt; endl;</code></pre></div><p><strong>Wynik:</strong></p><pre><code>Wewnątrz funkcji x = 6\nPo funkcji a = 5</code></pre><p>Mimo, że wewnątrz funkcji <code>zwieksz_o_jeden</code> zmienna <code>x</code> (kopiująca wartość <code>a</code>) została zwiększona do 6, po powrocie wartość <code>a</code> na zewnątrz pozostała 5. To dlatego, że modyfikowaliśmy tylko lokalną kopię.</p><p>Przekazywanie przez wartość chroni argumenty przed niezamierzonym zmienianiem ich przez funkcję, ale czasem właśnie <em>chcemy</em> zmienić oryginał.</p><h3>Przez referencję:</h3><p>W C++ możemy zadeklarować parametr jako referencję, dodając znak <code>&</code> po typie. Referencja jest aliasem oryginalnej zmiennej. Przykład funkcji zamieniającej wartości dwóch zmiennych (tzw. swap):</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>void zamien(int &a, int &b) {\n    int temp = a;\n    a = b;\n    b = temp;\n}\n\nint x = 10, y = 20;\nzamien(x, y);\ncout &lt;&lt; \"x=\" &lt;&lt; x &lt;&lt; \", y=\" &lt;&lt; y &lt;&lt; endl;  // wypisze x=20, y=10</code></pre></div><p>Parametry <code>a</code> i <code>b</code> są referencjami do zmiennych przekazanych. W momencie wywołania <code>zamien(x, y)</code>, <code>a</code> staje się aliasem zmiennej <code>x</code>, <code>b</code> aliasem <code>y</code>. Funkcja zamienia ich wartości, więc po powrocie <code>x</code> i <code>y</code> mają pozamieniane wartości – bez potrzeby zwracania czegokolwiek.</p><h3>Przez wskaźnik:</h3><p>Alternatywnie można przekazać adresy zmiennych do funkcji. Parametry wtedy będą wskaźnikami (np. <code>int*</code>). Funkcja <code>swap</code> z użyciem wskaźników wyglądałaby tak:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>void zamien_wsk(int *a, int *b) {\n    int temp = *a;\n    *a = *b;\n    *b = temp;\n}\n\n// wywołanie:\nzamien_wsk(&x, &y);</code></pre></div><p>Przy wywołaniu używamy operatora <code>&</code>, by pobrać adresy zmiennych. Wewnątrz funkcji <code>*a</code>, <code>*b</code> oznaczają dostęp do wartości pod tymi adresami. Efekt działania identyczny – zamiana wartości.</p><p><strong>Uwaga:</strong> Referencje są bezpieczniejsze (nie mogą być nullami) i wygodniejsze. Częściej stosuje się je do parametrów wyjściowych. Wskaźniki są jednak bardziej uniwersalne – niezbędne np. w pracy z dynamiczną pamięcią.</p><h3>Zwracanie wartości:</h3><p>Funkcja może zwracać wartość, która najczęściej jest rezultatem obliczeń. Zwrot następuje przez <code>return</code>. Warto pamiętać:</p><ul><li>Zwrot następuje kopią (chyba że zwracamy referencję/wskaźnik).</li><li>Nowoczesne kompilatory stosują RVO (return value optimization), by unikać niepotrzebnych kopii.</li><li>W każdej ścieżce wykonania funkcji zwracającej coś musi istnieć <code>return</code> z odpowiednią wartością.</li><li>Funkcja <code>main()</code> też zwraca <code>int</code>. Zwykle <code>return 0;</code> oznacza sukces. Jeśli nic nie zwróci – <code>0</code> jest domyślne.</li></ul><h3>Funkcje przeciążone:</h3><p>C++ pozwala na przeciążanie funkcji – definiowanie wielu funkcji o tej samej nazwie, różniących się listą parametrów (liczbą lub typami). Kompilator wybiera właściwą wersję na podstawie argumentów. Przykład:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int pole(int a) { return a * a; }           // pole kwadratu o boku a\nint pole(int a, int b) { return a * b; }   // pole prostokąta a*b\ndouble pole(double r) { return 3.14 * r * r; } // pole koła</code></pre></div><p>Wywołanie <code>pole(5)</code> wybierze 1. wersję, <code>pole(3,4)</code> – drugą, <code>pole(2.5)</code> – trzecią. Przeciążanie to przykład <strong>polimorfizmu ad-hoc</strong> (statycznego) – ta sama nazwa działa dla różnych typów danych.</p>"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Tablice",
+        "description": "",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Tablice jednowymiarowe",
+            "content": "<p><strong>Tablica</strong> to zbiór wielu wartości <em>tego samego typu</em>, ułożonych kolejno w pamięci, do których odwołujemy się za pomocą wspólnej nazwy i indeksu. Tablice pozwalają przechować np. listę 100 liczb w pojedynczej strukturze, zamiast tworzyć 100 osobnych zmiennych.</p><p>W C++ tablice można definiować na dwa sposoby:</p><ul><li><strong>Tablice statyczne</strong> (o stałym rozmiarze) – klasyczna konstrukcja z języka C. Rozmiar tablicy musi być znany w czasie kompilacji (stała, np. literał, <code>#define</code>, <code>const</code>).</li><li><strong>Tablice dynamiczne</strong> – przydzielane z dynamicznej pamięci (omówimy w module o wskaźnikach) lub za pomocą kontenerów bibliotecznych (np. <code>std::vector</code> z biblioteki STL). Dają elastyczność zmiennego rozmiaru, ale wymagają dodatkowej obsługi (np. zwalniania pamięci).</li></ul><p>Na początek skupimy się na tablicach statycznych.</p><h3>Deklaracja tablicy:</h3><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>typ nazwa[rozmiar];</code></pre></div><p>To tworzy tablicę o podanym rozmiarze (liczba elementów). Elementy indeksowane są od <code>0</code> do <code>rozmiar-1</code>.</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int liczby[5];</code></pre></div><p>Tworzy tablicę <code>liczby</code> mogącą przechować 5 elementów typu <code>int</code>: <code>liczby[0]</code>, <code>liczby[1]</code>, ..., <code>liczby[4]</code>.</p><h3>Inicjalizacja tablicy:</h3><p>Można przypisać wartości tablicy podczas deklaracji używając listy wartości w <code>{}</code>:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int dni[7] = {1, 2, 3, 4, 5, 6, 7};</code></pre></div><p>Jeśli liczba wartości w <code>{}</code> jest mniejsza niż rozmiar tablicy – pozostałe elementy zostaną zainicjalizowane na 0:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int t[5] = {10, 20}; // t[0]=10, t[1]=20, t[2]=0, t[3]=0, t[4]=0</code></pre></div><p>Jeśli podamy dokładnie tyle elementów ile rozmiar – możemy pominąć jego deklarację, a kompilator go wywnioskuje:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int fib[] = {1, 1, 2, 3, 5, 8, 13}; // rozmiar = 7</code></pre></div><h3>Dostęp do elementów:</h3><p>Używamy indeksów w nawiasach kwadratowych:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int A[3] = {10, 20, 30};\ncout << A[0]; // wypisze 10\nA[1] = 50;    // zmienia 20 na 50\ncout << A[1]; // wypisze 50</code></pre></div><p><strong>Uwaga:</strong> C++ <em>nie sprawdza poprawności indeksów</em> w czasie działania! Jeśli napiszemy <code>A[3] = 5;</code> dla tablicy <code>A[3]</code>, to operujemy <em>poza tablicą</em> – to błąd, który może prowadzić do nieprzewidywalnych zachowań (nadpisanie pamięci, awaria programu itp.). Programista musi sam pilnować poprawnych indeksów w zakresie <code>0</code> do <code>rozmiar-1</code>.</p><h3>Iteracja po tablicy:</h3><p>Najczęściej używamy pętli (for, while), by przejść przez wszystkie elementy tablicy.</p><p><strong>Przykład – sumowanie elementów:</strong></p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int B[5] = {2, 4, 6, 8, 10};\nint suma = 0;\nfor (int i = 0; i < 5; ++i) {\n    suma += B[i];\n}\ncout << \"Suma = \" << suma << endl; // Suma = 30</code></pre></div><h3>Przykład praktyczny:</h3><p>Obliczenie średniej z pomiarów zapisanych w tablicy:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int pomiary[4] = {10, 15, 12, 8};\nint sum = 0;\nfor (int i = 0; i < 4; ++i) {\n    sum += pomiary[i];\n}\ndouble srednia = sum / 4.0;\ncout << \"Średnia = \" << srednia << endl; // Średnia = 11.25</code></pre></div><p>Dzięki użyciu <code>4.0</code> wymuszamy dzielenie zmiennoprzecinkowe, a wynik będzie typu <code>double</code>.</p>"
+          },
+          {
+            "id": 2,
+            "title": "Tablice wielowymiarowe",
+            "content": "<p><strong>Tablice mogą mieć więcej niż jeden wymiar.</strong> Na przykład <em>tablica dwuwymiarowa</em> może być postrzegana jako tablica tablic – np. macierz w matematyce.</p><p>Deklaracja 2-wymiarowej tablicy wygląda tak:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>typ nazwa[rozmiar1][rozmiar2];</code></pre></div><p>Przykład:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int macierz[2][3];</code></pre></div><p>Tworzy tablicę 2×3 (2 wiersze, 3 kolumny) zdolną pomieścić 6 elementów typu <code>int</code>. Indeksy możemy interpretować jako <code>macierz[wiersz][kolumna]</code>, gdzie <code>wiersz ∈ {0,1}</code>, <code>kolumna ∈ {0,1,2}</code>.</p><h3>Inicjalizacja tablicy wielowymiarowej</h3><p>Można używać zagnieżdżonych klamr:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int M[2][3] = {\n    {1, 2, 3},\n    {4, 5, 6}\n};</code></pre></div><p>Powyżej <code>M</code> jest tablicą 2x3. Pierwszy wiersz to {1, 2, 3}, drugi {4, 5, 6}. Dostęp do elementu np. w drugim wierszu, trzeciej kolumnie: <code>M[1][2]</code> (indeksy liczymy od 0 – 1 oznacza drugi wiersz, 2 trzecią kolumnę). <code>M[1][2]</code> w tym przypadku ma wartość 6.</p><h3>Iteracja po tablicy 2D</h3><p>Najczęściej realizuje się za pomocą pętli zagnieżdżonych:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>for (int i = 0; i < 2; ++i) {\n    for (int j = 0; j < 3; ++j) {\n        cout << M[i][j] << \" \";\n    }\n    cout << endl;\n}</code></pre></div><p><strong>Wynik:</strong></p><pre><code>1 2 3\n4 5 6</code></pre><p>Pętla zewnętrzna <code>i</code> wybiera wiersz (0, potem 1). Pętla wewnętrzna <code>j</code> iteruje kolumny od 0 do 2, wypisując kolejne elementy w danym wierszu. Po zakończeniu pętli wewnętrznej (czyli po wypisaniu całego wiersza) wypisujemy znak nowej linii <code>endl</code>.</p><h3>Więcej wymiarów</h3><p>Możliwe są też tablice trzy- i więcej-wymiarowe, np.</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>int trojwymiar[3][4][5];</code></pre></div><p>– interpretacja jako prostokątna \"bryła\" elementów. W praktyce jednak rzadko korzysta się z tablic powyżej 3 wymiarów bez specjalnej potrzeby.</p><h3>Tablice a pamięć</h3><p>Tablice statyczne deklarowane jak powyżej mogą być tworzone:</p><ul><li>jako zmienne lokalne funkcji (na stosie programu) – wtedy ich rozmiar nie powinien być zbyt duży, bo stos jest ograniczony,</li><li>jako zmienne globalne / statyczne (w tzw. segmencie statycznym pamięci),</li><li>ewentualnie wewnątrz struktury/klasy jako jej pole.</li></ul><p>Jeśli potrzebujemy bardzo dużej tablicy lub takiej, której rozmiar zależy od danych wejściowych (czyli nieznany na etapie kompilacji), używamy <strong>alokacji dynamicznej</strong> (omówionej później).</p><h3>String a tablica char</h3><p>Wspomnieliśmy wcześniej o typie <code>std::string</code>. W starszym C ciągi znaków reprezentowane były jako tablice <code>char</code> zakończone znakiem <code>'\\0'</code>.</p><p>Przykład:</p><div style='background:#f4f4f4;padding:1rem;border-radius:6px;margin:1rem 0;'><pre><code>char napis[6] = \"Ala\";</code></pre></div><p>Tworzy tablicę długości 6 (musi pomieścić znaki <code>'A'</code>, <code>'l'</code>, <code>'a'</code>, <code>'\\0'</code> i ewentualnie więcej).</p><p>W C++ nadal można używać tablic znakowych, ale ich obsługa jest bardziej złożona (np. <code>&lt;cstring&gt;</code> do konkatenacji, kopiowania itp.). W praktyce preferuje się <code>std::string</code>, który automatycznie zarządza tablicą i upraszcza wiele operacji.</p><p><strong>Uwaga:</strong> Przypisanie do <code>char</code> odbywa się przez apostrofy, np. <code>'A'</code>, do <code>std::string</code> – przez cudzysłów: <code>\"tekst\"</code>.</p><p>Można też przypisać do <code>char*</code> lub używać w inicjalizacji tablicy <code>char</code>. Do <code>std::string</code> można przypisać literal wprost (ma zaimplementowaną konwersję).</p>"
           }
         ]
       }
@@ -85,34 +143,156 @@
       "questions": [
         {
           "id": 1,
-          "question": "Które z poniższych to trzy pierwsze liczby pierwsze?",
+          "question": "Która deklaracja funkcji main w C++ jest poprawna?",
           "answers": [
-            "2, 3, 5",
-            "1, 2, 3",
-            "3, 5, 7",
-            "5, 7, 11"
+            "int main() { ... }",
+            "void main() { ... }",
+            "Main() { ... }",
+            "public static void main() { ... }"
           ],
           "correct": [0],
           "points": 1
         },
         {
           "id": 2,
-          "question": "Którzy z poniższych byli królami Polski? (zaznacz 2 poprawne odpowiedzi)",
+          "question": "Jaki typ zmiennej należy użyć do przechowywania wartości logicznych (prawda/fałsz)?",
           "answers": [
-            "Bolesław Chrobry",
-            "Mieszko I",
-            "Kazimierz Wielki",
-            "Zbigniew Boniek"
+            "bool",
+            "char",
+            "int",
+            "float"
           ],
-          "correct": [0, 2],
-          "points": 2
+          "correct": [0],
+          "points": 1
         },
         {
           "id": 3,
-          "question": "Czy kura była przed jajkiem?",
+          "question": "Załóżmy: int x = 5, y = 2;. Jaki będzie wynik wykonania instrukcji cout << x / y;?",
           "answers": [
-            "Prawda",
-            "Fałsz"
+            "2",
+            "2.5",
+            "2.0",
+            "spowoduje błąd w czasie wykonywania"
+          ],
+          "correct": [0],
+          "points": 1
+        },
+        {
+          "id": 4,
+          "question": "Co wypisze poniższy kod?\n\nint a = 10;\nif(a < 5)\n   cout << \"malo\";\nelse\n   cout << \"duzo\";",
+          "answers": [
+            "malo",
+            "duzo",
+            "nie wypisze nic",
+            "malo i duzo (obie opcje)"
+          ],
+          "correct": [1],
+          "points": 1
+        },
+        {
+          "id": 5,
+          "question": "Które słowo kluczowe służy do zakończenia case’a w instrukcji switch, zapobiegając tzw. \"przechodzeniu\" (fall-through)?",
+          "answers": [
+            "break",
+            "continue",
+            "exit",
+            "stop"
+          ],
+          "correct": [0],
+          "points": 1
+        },
+        {
+          "id": 6,
+          "question": "Co wypisze ten fragment kodu?\n\nfor(int i = 0; i < 3; i++) {\n   cout << i;\n}",
+          "answers": [
+            "012",
+            "123",
+            "0123",
+            "0 1 2 (z odstępami)"
+          ],
+          "correct": [0],
+          "points": 1
+        },
+        {
+          "id": 7,
+          "question": "Co oznacza słowo kluczowe void przy deklaracji funkcji?",
+          "answers": [
+            "Funkcja nie zwraca żadnej wartości.",
+            "Funkcja nie przyjmuje żadnych argumentów.",
+            "Funkcja jest wykonywana w tle (wątek).",
+            "To słowo kluczowe nie ma specjalnego znaczenia."
+          ],
+          "correct": [0],
+          "points": 1
+        },
+        {
+          "id": 8,
+          "question": "Dany jest fragment: int arr[3] = {5,6,7};. Jaka jest wartość arr[1]?",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "niezdefiniowana (błąd)"
+          ],
+          "correct": [1],
+          "points": 1
+        },
+        {
+          "id": 9,
+          "question": "Jakie są poprawne typy pętli w C++? (zaznacz wszystkie poprawne)",
+          "answers": [
+            "for",
+            "foreach",
+            "while",
+            "do...while"
+          ],
+          "correct": [0, 2, 3],
+          "points": 2
+        },
+        {
+          "id": 10,
+          "question": "Które z poniższych są poprawnymi identyfikatorami w C++?",
+          "answers": [
+            "_zmienna1",
+            "2xStart",
+            "liczba$",
+            "totalSum"
+          ],
+          "correct": [0, 3],
+          "points": 2
+        },
+        {
+          "id": 11,
+          "question": "Co wypisze kod: int t[] = {1, 2, 3}; cout << t[3]; ?",
+          "answers": [
+            "1",
+            "3",
+            "Nie wiadomo – błąd poza zakresem (undefined behavior)",
+            "0"
+          ],
+          "correct": [2],
+          "points": 1
+        },
+        {
+          "id": 12,
+          "question": "Wskaż poprawną deklarację tablicy 10 elementowej typu int:",
+          "answers": [
+            "int tablica[10];",
+            "int tablica(10);",
+            "array<int> tablica[10];",
+            "int tablica = new int[10];"
+          ],
+          "correct": [0],
+          "points": 1
+        },
+        {
+          "id": 13,
+          "question": "Które operatory służą do inkrementacji i dekrementacji?",
+          "answers": [
+            "++ i --",
+            "** i //",
+            "+=1 i -=1",
+            "++ i **"
           ],
           "correct": [0],
           "points": 1
@@ -120,6 +300,8 @@
       ]
     }
   },
+
+  
   {
     "id": 2,
     "title": "Podstawy CSS i stylowanie stron",

@@ -37,22 +37,20 @@ const CourseModules = ({ course }) => {
               const isRead = readLessons[key];
 
               return (
-                <div key={j} className="lesson-item">
-                  <Link to={`/kurs/${courseId}/modul/${i + 1}/lekcja/${j + 1}`}>
-
-  {lesson.title}
-</Link>
-
-                  <span
-                    className="lesson-icon"
-                    role="button"
-                    aria-label="Zmień status przeczytania"
-                    onClick={() => toggleReadStatus(i, j)}
-                    style={{ cursor: 'pointer', marginLeft: '10px' }}
-                  >
-                    {isRead ? '✅' : '❌'}
-                  </span>
+                <div key={j} className="lesson-card">
+                  <div className="lesson-card-content">
+                    <Link
+                      to={`/kurs/${courseId}/modul/${i + 1}/lekcja/${j + 1}`}
+                      className="lesson-title-link"
+                    >
+                      {lesson.title}
+                    </Link>
+                  </div>
+                  <div className="lesson-status-badge" onClick={() => toggleReadStatus(i, j)}>
+                    {isRead ? '✅ Ukończono' : '❌ Nieukończono'}
+                  </div>
                 </div>
+
               );
             })}
           </div>

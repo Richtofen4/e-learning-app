@@ -34,13 +34,13 @@ const QuizPage = () => {
       <div className="course-layout">
         <CourseSidebar />
         <main className="course-content">
-          <h1>📊 Quiz zakończony</h1>
+          <h1>Quiz zakończony</h1>
           <p><strong>Wynik:</strong> {result.score} / {result.total} punktów</p>
           <p><strong>Skuteczność:</strong> {result.percent}%</p>
           <p><strong>Data ukończenia:</strong> {new Date(result.date).toLocaleString()}</p>
 
           <hr style={{ margin: '2rem 0' }} />
-          <h2>📋 Twoje odpowiedzi</h2>
+          <h2>Twoje odpowiedzi</h2>
 
           {questions.map((q, idx) => {
             const userAnswer = userAnswers[q.id] || [];
@@ -118,17 +118,17 @@ const QuizPage = () => {
     <div className="course-layout">
       <CourseSidebar />
       <main className="course-content">
-        <h1>🧠 Quiz końcowy</h1>
+        <h1>Quiz końcowy</h1>
 
         {!allCompleted ? (
           <div className="quiz-lock">
-            <p>🔒 Musisz najpierw ukończyć wszystkie lekcje, zanim rozpoczniesz quiz.</p>
+            <p>Musisz najpierw ukończyć wszystkie lekcje, zanim rozpoczniesz quiz.</p>
             <p>✅ Ukończone: {completedLessons.length} / {allLessons.length}</p>
           </div>
         ) : (
           <div className="quiz-ready">
             <p>✅ Gratulacje! Ukończyłeś wszystkie lekcje.</p>
-            <p>📋 Ten quiz składa się z <strong>{course.quiz.questions.length} pytań</strong>. Będziesz miał <strong>1 szansę</strong>.</p>
+            <p>Ten quiz składa się z <strong>{course.quiz.questions.length} pytań</strong>. Będziesz miał <strong>1 szansę</strong>.</p>
             <button onClick={handleStartQuiz} className="button-primary">
               Rozpocznij quiz
             </button>

@@ -256,6 +256,66 @@
     background-color: #d4ffd4;
   }
   
+  .lesson-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.lesson-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.lesson-card-content h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.lesson-link-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.lesson-link-button:hover {
+  background-color: #0056b3;
+}
+
+.lesson-status-badge {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.lesson-title-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #222;
+  transition: color 0.2s;
+}
+
+.lesson-title-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
 /* Widok quizu */
   .course-not-found {
     padding: 2rem;
